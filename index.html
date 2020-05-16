@@ -1,125 +1,19 @@
-<!doctype html>
-<head><script
-  src="https://code.jquery.com/jquery-3.4.0.min.js"
-  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-  crossorigin="anonymous">
-  </script>
-<style>
-cart {
-    padding-top: 40px;
-    font-family: 'Russo One', sans-serif;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/sila.css">
+      <script src="./js/jquery-3.5.1.js"></script>
+        <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./js/bootstrap/bootstrap.min.js"></script>
+        <script src="./js/sila.js"></script>
 
-.cart-header {
-    font-weight: bold;
-    font-size: 1.25em;
-    color: white;
-}
+  </head>
+  <body>
+    <h1>More Toppingz</h1>
 
-.cart-column {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
-}
 
-.cart-row {
-    display: flex;
-}
-
-.cart-item {
-    width: 45%;
-    margin-left: 20px;
-}
-
-.cart-items {
-    margin: 10px 0px 0px 20px;
-    font-size: 120%;
-}
-
-.cart-price {
-    width: 20%;
-    font-size: 1.2em;
-    color: white;
-}
-
-.cart-quantity {
-    width: 35%;
-}
-
-.cart-item-title {
-    color: #333;
-    margin-left: .5em;
-    font-size: 1.2em;
-}
-
-.cart-item-image {
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.cart-row:last-child {
-    border-bottom: 1px solid black;
-}
-
-.cart-row:last-child .cart-column {
-    border: none;
-}
-
-.cart-total {
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: white;
-    margin-right: 20px;
-}
-
-.cart-total-price {
-    color: white;
-    font-size: 1.1em;
-}
-</style>
-</head><body>
-<div id="content">
-          <h2>Select your items:</h2>
-          <div class="wrapper">
-              <div class="item" id="pizza" data-cost="10"> Pizza <img src="https://cdn.modpizza.com/wp-content/uploads/2016/11/mod-pizza-maddy-default-e1479167621575.png" /><button id="pizza-btn" class="addToCartButton" type="button">Order</button></div>
-              <div class="item" id="pepperoni" data-cost="2"> Pepperoni <img src="http://www.stickpng.com/assets/images/5c0798c72c6641059597e35e.png" /><button id="topping-pepperoni-btn">Order</button></div>
-              <div class="item" id="mushrooms" data-cost="1"> Mushrooms <img src="http://www.stickpng.com/assets/images/585ea634cb11b227491c352c.png" /><button id="topping-mushrooms-btn">Order</button></div>
-              <div class="item" id="onions" data-cost="1"> Onions <img src="http://www.pngnames.com/files/3/Onion-Transparent-File.png" /><button id="topping-onions-btn">Order</button></div>
-              <div class="item" id="meatballs" data-cost="2"> Meatballs <img src="http://doughocracy.com/wp-content/uploads/2015/05/Meatballs-1-e1437181629229.png" /><button  id="topping-meatballs-btn">Order</button></div>
-              <div class="item" id="peppers" data-cost="1"> Peppers <img src="https://www.actaturcica.com/wp-content/uploads/2018/05/Bell-Pepper-PNG-Image.png" /><button  id="topping-peppers-btn">Order</button></div>
-              <div class="item" id="olives" data-cost="1"> Olives <img src="http://www.pngnames.com/files/3/Olives-Transparent-Background.png" /><button  id="topping-olives-btn">Order</button></div>
-              <div class="item" id="bacon" data-cost="2"> Bacon <img src="https://purepng.com/public/uploads/large/purepng.com-baconfood-meat-fried-pork-cooked-941524618065kjlnp.png" /><button>Order</button></div>
-              <div class="item" id="prosciutto" data-cost="3"> Prosciutto <img src="https://i.dlpng.com/static/png/250323_thumb.png" /><button id="topping-prosciutto-btn">Order</button></div>
-              <div class="item" id="ham" data-cost="2"> Ham <img src="http://www.pngall.com/wp-content/uploads/2018/05/Ham-PNG.png" /><button id="topping-ham-btn">Order</button></div>
-          </div>
-          <div class="cart">
-                  <h2 class="section-header">CART</h2>
-
-                  <table id="cart-table">
-                    <thead>
-                      <tr>
-                        <th>ITEM</th>
-                        <th>PRICE</th>
-                        <th>QTY</th>
-                      </tr>
-                    </thead>
-                  </table>
-
-                  <div class="cart-total" id="cartTotal">
-                      <strong class="cart-total-title">Total</strong>
-                      <span class="cart-total-price">$0</span>
-                  </div>
-                  <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-          </div>
-      </div>
-    </body></html>
+  </body>
+</html>
