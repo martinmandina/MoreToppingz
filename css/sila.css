@@ -1,3 +1,9 @@
 body {
   background: #feffca;
 }
+#jumbotron {
+    background-image:url(./img/pzabg.jpg);
+    -webkit-transition:background-image 0.5s;
+    /* Other vendor-prefixed transition properties */
+    transition:background-image 0.5s;
+}
