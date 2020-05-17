@@ -20,15 +20,29 @@ text-shadow: 2px 2px #FFff00;
 }
 #pizza:hover {
     background-image:url(../img/slicer.jpg);
-    -webkit-transition:background-image 1.0s;
+    -webkit-transition:background-image 0.5s;
     /* Other vendor-prefixed transition properties */
-    transition:background-image 1.0s;
+    transition:background-image 0.5s;
     background-size: cover;
 }
 #pizza{
     background-image:url(../img/board.jpg);
-    -webkit-transition:background-image 1.0s;
+    -webkit-transition:background-image 0.5s;
     /* Other vendor-prefixed transition properties */
-    transition:background-image 1.0;
+    transition:background-image 0.5;
     background-size: cover;
+}
+input[type='checkbox']
+{
+	width: 20px;
+	height: 20px;
+  background-color:maroon;
+  color:white;
+}
+input[type='radio']
+{
+	width: 20px;
+	height: 20px;
+  background-color:maroon;
+  color:white;
 }
