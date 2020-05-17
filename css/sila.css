@@ -7,6 +7,7 @@ src: url("../fonts/Marto.ttf");
 }
 #logo{
 font-family: Marto;
+text-shadow: 2px 2px #FFff00;
 }
 
 #jumbotron {
