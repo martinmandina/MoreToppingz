@@ -1,9 +1,11 @@
-body {
-  background: #000000;
-}
 @font-face {
 font-family: "Marto";
 src: url("../fonts/Marto.ttf");
+}
+body {
+  background: #000000;
+  font-family: Marto;
+  text-shadow: 1px 1px #c0c0c0;
 }
 #logo{
 font-family: Marto;
