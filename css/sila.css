@@ -34,15 +34,15 @@ text-shadow: 2px 2px #FFff00;
 }
 input[type='checkbox']
 {
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
   background-color:maroon;
   color:white;
 }
 input[type='radio']
 {
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
   background-color:maroon;
   color:white;
 }
