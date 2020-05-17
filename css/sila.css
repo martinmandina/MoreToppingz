@@ -1,5 +1,5 @@
 body {
-  background: #feffca;
+  background: #000000;
 }
 @font-face {
 font-family: "Marto";
@@ -15,4 +15,18 @@ text-shadow: 2px 2px #FFff00;
     -webkit-transition:background-image 0.5s;
     /* Other vendor-prefixed transition properties */
     transition:background-image 0.5s;
+}
+#pizza:hover {
+    background-image:url(../img/slicer.jpg);
+    -webkit-transition:background-image 1.0s;
+    /* Other vendor-prefixed transition properties */
+    transition:background-image 1.0s;
+    background-size: cover;
+}
+#pizza{
+    background-image:url(../img/board.jpg);
+    -webkit-transition:background-image 1.0s;
+    /* Other vendor-prefixed transition properties */
+    transition:background-image 1.0;
+    background-size: cover;
 }
