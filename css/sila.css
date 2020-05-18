@@ -15,20 +15,17 @@ text-shadow: 2px 2px #FFff00;
 #jumbotron {
     background-image:url(../img/pzabg.jpg);
     -webkit-transition:background-image 0.5s;
-    /* Other vendor-prefixed transition properties */
     transition:background-image 0.5s;
 }
 #pizza:hover {
     background-image:url(../img/slicer.jpg);
     -webkit-transition:background-image 0.5s;
-    /* Other vendor-prefixed transition properties */
     transition:background-image 0.5s;
     background-size: cover;
 }
 #pizza{
     background-image:url(../img/board.jpg);
     -webkit-transition:background-image 0.5s;
-    /* Other vendor-prefixed transition properties */
     transition:background-image 0.5;
     background-size: cover;
 }
@@ -45,4 +42,7 @@ input[type='radio']
 	height: 21px;
   background-color:maroon;
   color:white;
+}
+#location {
+  visibility: hidden;
 }

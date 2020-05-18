@@ -8,3 +8,9 @@ var whatEver = myID('toppingsDropDown').value();
 var byId = function( id ) { return document.getElementById( id ); };
 
 byId( 'someID' )*/
+function hideDropOffPoint() {
+  document.getElementById("dropOffPoint").style.visibility = "hidden";
+}
+function showDropOffPoint() {
+  document.getElementById("dropOffPoint").style.visibility = "visible";
+}
