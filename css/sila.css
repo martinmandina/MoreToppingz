@@ -1,6 +1,6 @@
 @font-face {
-font-family: "Marto";
-src: url("../fonts/Marto.ttf");
+  font-family: "Marto";
+  src: url("../fonts/Marto.ttf");
 }
 body {
   background: #000000;
@@ -8,38 +8,38 @@ body {
   text-shadow: 1px 1px #c0c0c0;
 }
 #logo{
-font-family: Marto;
-text-shadow: 2px 2px #FFff00;
+  font-family: Marto;
+  text-shadow: 2px 2px #FFff00;
 }
 
 #jumbotron {
-    background-image:url(../img/pzabg.jpg);
-    -webkit-transition:background-image 0.5s;
-    transition:background-image 0.5s;
+  background-image:url(../img/pzabg.jpg);
+  -webkit-transition:background-image 0.5s;
+  transition:background-image 0.5s;
 }
 #pizza:hover {
-    background-image:url(../img/slicer.jpg);
-    -webkit-transition:background-image 0.5s;
-    transition:background-image 0.5s;
-    background-size: cover;
+  background-image:url(../img/slicer.jpg);
+  -webkit-transition:background-image 0.5s;
+  transition:background-image 0.5s;
+  background-size: cover;
 }
 #pizza{
-    background-image:url(../img/board.jpg);
-    -webkit-transition:background-image 0.5s;
-    transition:background-image 0.5;
-    background-size: cover;
+  background-image:url(../img/board.jpg);
+  -webkit-transition:background-image 0.5s;
+  transition:background-image 0.5;
+  background-size: cover;
 }
 input[type='checkbox']
 {
-	width: 21px;
-	height: 21px;
+  width: 21px;
+  height: 21px;
   background-color:maroon;
   color:white;
 }
 input[type='radio']
 {
-	width: 21px;
-	height: 21px;
+  width: 21px;
+  height: 21px;
   background-color:maroon;
   color:white;
 }

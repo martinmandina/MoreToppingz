@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>&trade;MoreToppingz&copy;</title>
-<meta charset="UTF-8">
- <meta name="description" content="More Toppingz Pizza Web Application to allow our clients to send us their online order.">
- <meta name="keywords" content="MoreToppingz,Pizza,Crust,Delicious,Kenya,Nairobi,Yummy">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font_body" />
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/sila.css">
-      <script src="./js/jquery-3.5.1.js"></script>
-        <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
-        <script src="./js/bootstrap/bootstrap.min.js"></script>
-        <script src="./js/sila.js"></script>
+<head>
+  <title>&trade;MoreToppingz&copy;</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="More Toppingz Pizza Web Application to allow our clients to send us their online order.">
+  <meta name="keywords" content="MoreToppingz,Pizza,Crust,Delicious,Kenya,Nairobi,Yummy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font_body" />
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/sila.css">
+  <script src="./js/jquery-3.5.1.js"></script>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap/bootstrap.min.js"></script>
+  <script src="./js/sila.js"></script>
 
-  </head>
-  <body onLoad="hideDropOffPoint()">
+</head>
+<body onLoad="hideDropOffPoint()">
 
-     <div class="container">
-      <div class="jumbotron" id="jumbotron">
-        <h1 id="logo">MoreToppingz&trade;</h1>
-      </div>
-<div id="orderform">
-  <form id="pizza">
-    <div class="form-group">
-        <p>What size would you like your pizza:</p>
-        <input type="radio" name="size" value="Small">Small.<br>
-        <input type="radio" name="size" value="Medium">Medium.<br>
-        <input type="radio" name="size" value="Large">Large.<br>
-      </div>
-      <div class="form-group">
-        <span id="crust">Crust:
-          <select name="crust" id="crust" onChange="window.alert('crust price : Kshs.'+this.value+' /=')">
-            <option value="choose">Choose...</option>
-            <option name="thin" value="10">Thin</option>
-            <option name="thick" value="20">Thick</option>
-            <option name="crispy" value="30">Crispy</option>
-            <option name="stuffed" value="40">Stuffed</option>
-            <option name="glutenfree" value="50">Gluten Free</option>
-          </select>
-        </span>
-      </div>
-      <div class="form-group">
-         <p>Which toppings would you like</p>
-         <input type="checkbox" name="toppings" value="Cheese">Cheese.<br>
-         <input type="checkbox" name="toppings" value="Vegetarian">Vegetarian.<br>
-         <input type="checkbox" name="toppings" value="Supreme">Supreme.<br>
-         <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni.<br>
-         <input type="checkbox" name="toppings" value="Fruit">Fruit.<br>
-         <input type="checkbox" name="toppings" value="Bacon">Bacon.<br>
-         <input type="checkbox" name="toppings" value="Artichoke">Artichoke.<br>
-         <input type="checkbox" name="toppings" value="Peanut Butter">Peanut Butter.<br>
-       </div>
-       <div class="form-group">
-         <label for="quantity">Number of Pizzas:</label>
-         <input type="number" id="quantity" name="quantity" min="1" max="1000">
-       </div>
-       <div class="form-group">
-           <p>Please Method:</p>
+  <div class="container">
+    <div class="jumbotron" id="jumbotron">
+      <h1 id="logo">MoreToppingz&trade;</h1>
+    </div>
+    <div id="orderform">
+      <form id="pizza">
+        <div class="form-group">
+          <p>What size would you like your pizza:</p>
+          <input type="radio" name="size" value="Small">Small.<br>
+          <input type="radio" name="size" value="Medium">Medium.<br>
+          <input type="radio" name="size" value="Large">Large.<br>
+        </div>
+        <div class="form-group">
+          <span id="crust">Crust:
+            <select name="crust" id="crust" onChange="window.alert('crust price : Kshs.'+this.value+' /=')">
+              <option value="choose">Choose...</option>
+              <option name="thin" value="10">Thin</option>
+              <option name="thick" value="20">Thick</option>
+              <option name="crispy" value="30">Crispy</option>
+              <option name="stuffed" value="40">Stuffed</option>
+              <option name="glutenfree" value="50">Gluten Free</option>
+            </select>
+          </span>
+        </div>
+        <div class="form-group">
+          <p>Which toppings would you like</p>
+          <input type="checkbox" name="toppings" value="Cheese">Cheese.<br>
+          <input type="checkbox" name="toppings" value="Vegetarian">Vegetarian.<br>
+          <input type="checkbox" name="toppings" value="Supreme">Supreme.<br>
+          <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni.<br>
+          <input type="checkbox" name="toppings" value="Fruit">Fruit.<br>
+          <input type="checkbox" name="toppings" value="Bacon">Bacon.<br>
+          <input type="checkbox" name="toppings" value="Artichoke">Artichoke.<br>
+          <input type="checkbox" name="toppings" value="Peanut Butter">Peanut Butter.<br>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Number of Pizzas:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1000">
+        </div>
+        <div class="form-group">
+          <p>Please Method:</p>
           <input type="radio" id="picking" name="pizzaDelivery" value="picked" onClick="hideDropOffPoint()">
           <label for="picking">Picking</label><br>
           <input type="radio" id="delivery" name="pizzaDelivery" value="delivered" onClick="showDropOffPoint()">
           <label for="delivery">Deliver</label><br>
 
-         <input id="dropOffPoint" name="dropOffPoint" value="MoreToppingz" placeholder="enter your location">
-       </div>
-       <button type="button" onClick="window.alert('your order will be '+pizzaDelivery.value+' at '+dropOffPoint.value)">Process Order</button>
-       <button type="submit">Check Out</button>
-       <button type="reset" onClick="hideDropOffPoint()">Clear Order Form</button>
-</form>
-<ul id="messages">
+          <input id="dropOffPoint" name="dropOffPoint" value="MoreToppingz" placeholder="enter your location">
+        </div>
+        <button type="button" onClick="window.alert('your order will be '+pizzaDelivery.value+' at '+dropOffPoint.value)">Process Order</button>
+        <button type="submit">Check Out</button>
+        <button type="reset" onClick="hideDropOffPoint()">Clear Order Form</button>
+      </form>
+      <ul id="messages">
       </ul>
-</div>
     </div>
+  </div>
 
-      </body>
+</body>
 </html>
