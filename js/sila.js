@@ -55,3 +55,23 @@ Pizza.prototype.price = function() {
 
 return this.pizzaPrice;
 }
+$(document).ready(function(){
+  $("form#pizza").submit(function(event){
+    event.preventDefault();
+
+    var size = $("input[type=radio][name=size]:checked").val();
+    var toppings = $("input[type=checkbox][name=toppings]:checked");
+    var i = 0;
+    var toppingVal;
+    while(i < toppings.length){
+    	toppingVal += " "+(toppings[i]).value;
+      i++;
+    }
+    var newPizza = new Pizza(size,toppingVal,pizzaPrice);
+    newPizza.price();
+
+    $("#messages").append("<li>" + "Your Order is " + newPizza.size + " " + newPizza.toppings + " pizza. " + " Pizza total is is Kshs. " + newPizza.pizzaPrice + "/=</li>");
+
+
+      });
+    });
