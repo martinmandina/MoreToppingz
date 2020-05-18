@@ -13,4 +13,5 @@ function hideDropOffPoint() {
 }
 function showDropOffPoint() {
   document.getElementById("dropOffPoint").style.visibility = "visible";
+  document.getElementById("dropOffPoint").value = "";
 }
